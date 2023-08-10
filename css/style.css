@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* commom style  */
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.float-left{
+    float: right;
+}
+.claer{
+    clear: both;
+}
+.btn{
+    background-color: aliceblue;
+    color: #271000;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 30px;
+    text-decoration: none;
+}
+p{
+    letter-spacing: .5px;
+    line-height: 22px;
+}
+/* //commom style  */
+/* header start  */
+header{
+    background: #FFC107  url(/img/bg1.png) no-repeat fixed 0 -70px;
+    background-size: cover;
+    height: 100vh;
+    padding:  10px;
+    color: #271000;
+    
+}
+.header-contact{
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 300px;
+    margin: 250px 0 125px;
+    }
+    .header-contact p{
+        letter-spacing: 0;
+    }
+
+    h1{
+        font-size: 40px;
+        font-weight: 700;
+        margin-block: 10px;
+    }
+
+/* //header End */
+/* maim :start  */
+/* quality section start  */
+
+.quality{
+    padding:40px 0 0;
+}
+.quality h2{
+margin: 10px 0;
+}
+.quality p{
+    text-indent: 29px;
+ 
+}
+h3{
+     background-color: #FAC869;
+     padding: 20px 0;
+     text-align: center;
+     margin: 40px 0;
+     color: aliceblue;
+}
+/* quality section End */
+/* card secton start  */
+
+
+.item{
+    width: 311.617px;
+    float: left;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 40px;
+
+}
+.card{
+    background-color: #FAC869;
+
+}
+.card-heaed{
+    width: 100%;
+}
+.card-heaed img{
+    width: 100%;
+}
+.card-body{
+    padding: 10px;
+
+}
+h4{
+    margin: 5px 0;
+}
+.card-body p{
+    color: white;
+}
+.btn-primary{
+    position: absolute;
+    border: none;
+    outline: none;
+    top: 30px ;
+    background-color: #FAC869;
+    text-transform: capitalize;
+}
+/* card secton end  */
+
